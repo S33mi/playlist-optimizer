@@ -55,25 +55,25 @@ playlist-optimizer/
 
 ├── notebooks/
 
-│   ├── 01_problem_setup.ipynb
+│   ├── [01_problem_setup.ipynb](https://github.com/S33mi/playlist-optimizer/blob/main/notebook/01_problem_setup.ipynb)
 
-│   ├── 02_baseline_playlists.ipynb
+│   ├── [02_baseline_playlists.ipynb](https://github.com/S33mi/playlist-optimizer/blob/main/notebook/02_baseline_playlists.ipynb)
 
-│   ├── 03_genetic_algorithm.ipynb
+│   ├── [03_genetic_algorithm.ipynb](https://github.com/S33mi/playlist-optimizer/blob/main/notebook/03_genetic_algorithm.ipynb)
 
-│   └── 04_simulated_annealing.ipynb
+│   └── [04_simulated_annealing.ipynb](https://github.com/S33mi/playlist-optimizer/blob/main/notebook/04_simulated_annealing.ipynb)
 
 ├── src/
 
 │   ├── objectives.py           # playlist scoring functions
 
-│   ├── constraints.py
+│   ├── constraints.py (objectives_constraints.py)
 
 │   ├── ga_optimizer.py
 
 │   ├── sa_optimizer.py
 
-│   └── utils.py
+├── demo/ 
 
 ├── models/                     # optional saved optimizers / configs
 
@@ -139,6 +139,23 @@ track metadata + mood/cluster labels
 ---
 
 ## 📊 Results
+
+- **Energy Tempo Progression**
+  
+  ![GA_Energy_Tempo Output](data/output/03_GA_energy_tempo.png)
+  
+- **Genetic Algorithm Convergence**
+  
+  ![Genetic Algorithm Convergenc_Output](data/output/03_genetic_algorithm.png)
+
+- **Simulated Annealing for best Scores**
+  
+  ![Simulated_Annealing Output](data/output/04_simulated_annealing.png)
+
+- **Play List Optimization Comparison**
+  
+  ![GA_SA_Comparison Output](data/output/04_SA_GA_Comparison.png)
+  
 
 ---
 
